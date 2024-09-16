@@ -1,0 +1,47 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: purple;
+  color: purple;
+  border: 1px solid purple;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /*set for all for transition on color changes*/
+  transition: all 0.3s ease;
+}
+
+.circle:hover {
+  background-color: transparent;
+}
+
+.black {
+  color: black;
+  background: black;
+  border: 1px solid black;
+}
+
+.blue {
+  color: blue;
+  background: blue;
+  border: 1px solid blue;
+}
+
+.green {
+  color: green;
+  background: green;
+  border: 1px solid green;
+}
+
+.red {
+  color: red;
+  background: red;
+  border: 1px solid red;
+}
+
+#piece {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
